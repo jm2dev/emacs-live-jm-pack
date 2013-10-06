@@ -10,15 +10,18 @@ I have reused most of the settings provided by [thomaschrstnsn/thomas-chrstnsn-p
 Setup
 -----
 
-1. Delete $HOME/.live-packs directory and $HOME/.emacs-live.el file.
-1. Clone this repository to $HOME/.live-packs/$USER-pack.
-1. Create $HOME/.emacs-live.el file to load your settings.
+* Delete $HOME/.live-packs directory and $HOME/.emacs-live.el file.
+* Clone this repository to $HOME/.live-packs/$USER-pack.
 
+```bash
     git clone https://github.com/jm2dev/emacs-live-jm-pack.git ~/.live-packs
     cd ~/.live-packs
     git submodule init
     git submodule update
+```
+* Create $HOME/.emacs-live.el file to load your settings.
 
+```lisp
     (live-use-packs '(live/foundation-pack
                  ; live/colour-pack ;; skipped to allow our zenburn theme to load
                    live/clojure-pack
@@ -29,3 +32,4 @@ Setup
                    live/bindings-pack))
     ;; replace $USER with your user name (whoami)
     (live-add-packs '(~/.live-packs/$USER-pack))
+```
