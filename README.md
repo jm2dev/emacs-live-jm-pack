@@ -3,7 +3,7 @@ My Emacs live pack
 
 After a successful installation of [Emacs Live](http://overtone.github.io/emacs-live/), you can override default settings with the newly created $HOME/.live-packs directory.
 
-This repository includes my customizations to use the [zenburn theme](https://github.com/bbatsov/zenburn-emacs), Adobe's [Source Code Pro](https://github.com/adobe/Source-Code-Pro) font, display time and battery status.
+This repository includes my customizations to use the [zenburn theme](https://github.com/bbatsov/zenburn-emacs), Adobe's [Source Code Pro](https://github.com/adobe/Source-Code-Pro) font, [xquery mode](https://github.com/mblakele/xquery-mode), display time and battery status.
 
 I have reused most of the settings provided by [thomaschrstnsn/thomas-chrstnsn-pack](https://github.com/thomaschrstnsn/thomas-chrstnsn-pack).
 

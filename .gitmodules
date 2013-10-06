@@ -13,3 +13,6 @@
 [submodule "jm-pack/lib/clojure-cheatsheet"]
 	path = jm-pack/lib/clojure-cheatsheet
 	url = https://github.com/krisajenkins/clojure-cheatsheet
+[submodule "jm-pack/lib/xquery-mode"]
+	path = jm-pack/lib/xquery-mode
+	url = git://github.com/mblakele/xquery-mode.git

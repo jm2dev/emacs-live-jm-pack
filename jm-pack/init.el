@@ -12,6 +12,7 @@
 ;; (live-load-config-file "clean-mode-line.el")
 (live-load-config-file "zenburn-conf.el")
 (live-load-config-file "powerline.el")
+(live-load-config-file "xquery.el")
 
 ;; make the fringe thinner (default is 8 in pixels)
 (fringe-mode 4)
