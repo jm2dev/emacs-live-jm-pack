@@ -1,3 +1,15 @@
 [submodule "zenburn-pack"]
 	path = zenburn-pack
 	url = https://github.com/siancu/zenburn-pack.git
+[submodule "jm-pack/lib/powerline"]
+	path = jm-pack/lib/powerline
+	url = https://github.com/milkypostman/powerline
+[submodule "jm-pack/lib/helm"]
+	path = jm-pack/lib/helm
+	url = https://github.com/emacs-helm/helm
+[submodule "jm-pack/lib/zenburn-emacs"]
+	path = jm-pack/lib/zenburn-emacs
+	url = https://github.com/bbatsov/zenburn-emacs
+[submodule "jm-pack/lib/clojure-cheatsheet"]
+	path = jm-pack/lib/clojure-cheatsheet
+	url = https://github.com/krisajenkins/clojure-cheatsheet
