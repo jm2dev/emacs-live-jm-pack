@@ -16,3 +16,6 @@
 [submodule "jm-pack/lib/xquery-mode"]
 	path = jm-pack/lib/xquery-mode
 	url = git://github.com/mblakele/xquery-mode.git
+[submodule "jm-pack/lib/org-reveal"]
+	path = jm-pack/lib/org-reveal
+	url = https://github.com/yjwen/org-reveal
