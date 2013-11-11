@@ -11,7 +11,8 @@ Setup
 -----
 
 * Delete $HOME/.live-packs directory and $HOME/.emacs-live.el file.
-* Clone this repository to $HOME/.live-packs/$USER-pack.
+* Clone this repository to $HOME/.live-packs.
+* Update submodules for this repository.
 
 ```bash
     git clone https://github.com/jm2dev/emacs-live-jm-pack.git ~/.live-packs
