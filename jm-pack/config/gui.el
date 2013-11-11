@@ -19,7 +19,7 @@
   (when (fboundp mode) (funcall mode t)))
 
 ;; Toggle line highlighting in all buffers
-(global-hl-line-mode t)
+;(global-hl-line-mode t)
 
 ;;; Calendar settings
 ;; you can use M-x sunrise-sunset to get the sun time
@@ -37,5 +37,5 @@
 (setq display-time-interval 10)
 ;; show time
 (display-time-mode t)
-;; battery mode
-(display-battery-mode t)
+;; battery mode -> wait for emacs version to fix mavericks battery codes (24.5)
+;;(display-battery-mode 1)

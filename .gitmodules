@@ -19,3 +19,6 @@
 [submodule "jm-pack/lib/org-reveal"]
 	path = jm-pack/lib/org-reveal
 	url = https://github.com/yjwen/org-reveal
+[submodule "jm-pack/lib/solarized-emacs"]
+	path = jm-pack/lib/solarized-emacs
+	url = git@github.com:bbatsov/solarized-emacs.git
