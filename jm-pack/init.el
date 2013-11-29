@@ -25,3 +25,8 @@
 
 ;;; You email address
 (setq user-mail-address "jomarcar@gmail.com")
+
+;;; js2 :: http://feeding.cloud.geek.nz/posts/proper-indentation-of-javascript-files/
+(custom-set-variables
+ '(js2-basic-offset 2)
+ '(js2-bounce-indent-p t))

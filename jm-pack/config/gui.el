@@ -1,4 +1,4 @@
-(add-to-list 'default-frame-alist '(font . "Source Code Pro 16"))
+(add-to-list 'default-frame-alist '(font . "Source Code Pro 14"))
 ;(add-to-list 'default-frame-alist '(height . 45))
 ;(add-to-list 'default-frame-alist '(width . 135))
 
